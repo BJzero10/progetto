@@ -1,6 +1,6 @@
 <template>
-    <div id="MainLayout" class="w-full z-50">
-        <div id="TopMenu" class="w-full fixed">
+    <div id="MainLayout" class="w-full">
+        <div id="TopMenu" class="w-full fixed z-50">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">

@@ -13,11 +13,8 @@
                     </div>
                 </div>
             </div>
-            <p>Hola</p>
-            <div class="items-center text-center">
-                <h2 class="">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-            </div>
+            <GeneralTextSection/>
+            <HomeDivider/>
         </div>
     </MainLayout>  
 </template>
