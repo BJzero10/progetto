@@ -1,5 +1,5 @@
 <template>
-    <div class="footer flex justify-around p-10 bg-footer text-primary-content">
+    <div class="footer flex justify-around p-10 bg-footer text-primary-content bg-[#144e99]">
         <nav>
             <h6 class="footer-title">Contatti</h6> 
             <a class="link link-hover">Branding</a>
@@ -20,7 +20,7 @@
 
         </nav>
     </div>
-    <div class="footer footer-center p-8 bg-footer text-primary-content">
+    <div class="footer footer-center p-8 bg-[#144e99] text-primary-content">
         <aside>
             <p class="italic">ProgettoAssistenza Srl - P.Iva 02092140512 - Cookies Policy - Privacy Policy - Area Personale</p>
         </aside>
@@ -32,7 +32,7 @@
 </script>
 
 <style>
-.bg-footer {
+/* .bg-footer {
     background-color: #2161a1;
-}
+} */
 </style>

@@ -10,7 +10,7 @@
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><NuxtLink to="/">HOME</NuxtLink></li>
                         <li><NuxtLink to="/profilo">PROFILO</NuxtLink></li>
-                        <li><a>TROVA CENTRO</a></li>
+                        <li><NuxtLink to="/trova-centro">TROVA CENTRO</NuxtLink></li>
                         <li>
                         <a>SERVIZI</a>
                         <ul class="p-2">
@@ -32,7 +32,7 @@
                     <ul class="menu menu-horizontal px-1">
                     <li><NuxtLink to="/">HOME</NuxtLink></li>
                     <li><NuxtLink to="/profilo">PROFILO</NuxtLink></li>
-                    <li><a>TROVA CENTRO</a></li>
+                    <li><NuxtLink to="/trova-centro">TROVA CENTRO</NuxtLink></li>
                     <li>
                         <details>
                         <summary>SERVIZI</summary>

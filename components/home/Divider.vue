@@ -1,54 +1,58 @@
 <template>
-    <div class="flex flex-row overflow-hidden">
-        <figure class="w-1/2 hidden md:block">
-            <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
-        </figure>
-        <div class="w-1/2 pt-4 hidden md:block">
-            <div class="flex flex-col">
-                <div class="w-full xl:pl-20 xl:pr-12 pl-12 pr-12">
-                    <h1
-                    role="heading"
-                    tabindex="0"
-                    class="text-3xl font-bold 2xl:leading-10 leading-0 -ml-5 text-gray-800"
-                    >
-                    I NOSTRI SERVIZI
-                    </h1>
-                    <ul class="py-4">
-                        <li v-for="(servicio, index) in servicios" :key="index" class="bullet-list">{{ servicio }}</li>
-                    </ul>
-                    <h1
-                    role="heading"
-                    tabindex="0"
-                    class="text-3xl font-bold 2xl:leading-10 leading-0 -ml-5 text-gray-800"
-                    >
-                    Scegliere Progetto Assistenza vuol dire ottenere soluzioni immediate al giusto prezzo.
-                    </h1>
+    <div class="mx-auto bg-[#144e99]">
+        <div class="flex items-center justify-between w-full overflow-hidden">
+            <figure class="w-1/2 hidden md:block">
+                <div class="w-full">
+                    <img class="object-none" src="/home_assistenza.jpg" />
+                </div>
+            </figure>
+            <div class="w-1/2 hidden md:block">
+                <div class="flex flex-col text-white">
+                    <div class="w-full xl:pl-20 xl:pr-12 pl-12 pr-12">
+                        <h1
+                        role="heading"
+                        tabindex="0"
+                        class="text-3xl font-bold 2xl:leading-10 leading-0"
+                        >
+                        I NOSTRI SERVIZI
+                        </h1>
+                        <ul class="py-4 ml-5">
+                            <li v-for="(servicio, index) in servicios" :key="index" class="bullet-list">{{ servicio }}</li>
+                        </ul>
+                        <h1
+                        role="heading"
+                        tabindex="0"
+                        class="text-3xl font-bold 2xl:leading-10 leading-0"
+                        >
+                        Scegliere Progetto Assistenza vuol dire ottenere soluzioni immediate al giusto prezzo.
+                        </h1>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="block md:hidden">
-        <div class="flex flex-col -mr-5">
-                <div class="w-full pl-12 pr-12">
-                    <h1
-                    role="heading"
-                    tabindex="0"
-                    class="text-3xl font-bold 2xl:leading-10 leading-0 -ml-5 text-gray-800"
-                    >
-                    I NOSTRI SERVIZI
-                    </h1>
-                    <ul class="py-4">
-                        <li v-for="(servicio, index) in servicios" :key="index" class="bullet-list">{{ servicio }}</li>
-                    </ul>
-                    <h1
-                    role="heading"
-                    tabindex="0"
-                    class="text-3xl font-bold 2xl:leading-10 leading-0 -ml-5 text-gray-800"
-                    >
-                    Scegliere Progetto Assistenza vuol dire ottenere soluzioni immediate al giusto prezzo.
-                    </h1>
+        <div class="block md:hidden">
+            <div class="flex flex-col -mr-5">
+                    <div class="w-full pl-12 pr-12">
+                        <h1
+                        role="heading"
+                        tabindex="0"
+                        class="text-3xl font-bold 2xl:leading-10 leading-0 text-gray-800"
+                        >
+                        I NOSTRI SERVIZI
+                        </h1>
+                        <ul class="py-4 ml-5">
+                            <li v-for="(servicio, index) in servicios" :key="index" class="bullet-list">{{ servicio }}</li>
+                        </ul>
+                        <h1
+                        role="heading"
+                        tabindex="0"
+                        class="text-3xl font-bold 2xl:leading-10 leading-0 text-gray-800"
+                        >
+                        Scegliere Progetto Assistenza vuol dire ottenere soluzioni immediate al giusto prezzo.
+                        </h1>
+                    </div>
                 </div>
-            </div>
+        </div>
     </div>
 </template>
 
