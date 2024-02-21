@@ -35,7 +35,7 @@
                     <li><NuxtLink to="/trova-centro">TROVA CENTRO</NuxtLink></li>
                     <li class="relative group">
                         <div class="dropdown dropdown-bottom dropdown-hover">
-                            <NuxtLink to="/" tabindex="0">SERVIZI</NuxtLink>
+                            <NuxtLink to="/servizi" tabindex="0">SERVIZI</NuxtLink>
                             <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                                 <li><NuxtLink>ASSISTENZA ALLA PERSONA</NuxtLink></li>
                                 <li><NuxtLink>BADANTI E ASSISTENTI FAMILIARI</NuxtLink></li>
@@ -64,22 +64,4 @@
 </template>
 
 <script setup>
-</script>
-
-<script>
-export default {
-  data() {
-    return {
-      isDropdownOpen: false
-    };
-  },
-  methods: {
-    openDropdown() {
-      this.isDropdownOpen = true;
-    },
-    closeDropdown() {
-      this.isDropdownOpen = false;
-    }
-  }
-};
 </script>
