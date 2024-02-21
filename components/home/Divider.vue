@@ -2,13 +2,13 @@
     <div class="mx-auto bg-[#144e99]">
         <div class="flex items-center justify-between w-full overflow-hidden">
             <figure class="w-1/2 hidden md:block">
-                <div class="w-full">
+                <div>
                     <img class="object-none" src="/home_assistenza.jpg" />
                 </div>
             </figure>
             <div class="w-1/2 hidden md:block">
                 <div class="flex flex-col text-white">
-                    <div class="w-full xl:pl-20 xl:pr-12 pl-12 pr-12">
+                    <div class="px-12">
                         <h1
                         role="heading"
                         tabindex="0"
@@ -30,13 +30,13 @@
                 </div>
             </div>
         </div>
-        <div class="block md:hidden">
-            <div class="flex flex-col -mr-5">
-                    <div class="w-full pl-12 pr-12">
+        <div class="block md:hidden m-auto">
+            <div class="flex flex-col text-white">
+                    <div class="w-full p-12">
                         <h1
                         role="heading"
                         tabindex="0"
-                        class="text-3xl font-bold 2xl:leading-10 leading-0 text-gray-800"
+                        class="text-3xl font-bold 2xl:leading-10 leading-0"
                         >
                         I NOSTRI SERVIZI
                         </h1>
@@ -46,7 +46,7 @@
                         <h1
                         role="heading"
                         tabindex="0"
-                        class="text-3xl font-bold 2xl:leading-10 leading-0 text-gray-800"
+                        class="md:text-3xl text-2xl font-bold 2xl:leading-10 leading-0"
                         >
                         Scegliere Progetto Assistenza vuol dire ottenere soluzioni immediate al giusto prezzo.
                         </h1>

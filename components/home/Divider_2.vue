@@ -1,9 +1,9 @@
 <template>
     <div class="mx-auto bg-[#144e99]">
-    <div class="flex items-center justify-between w-full overflow-hidden">
+    <div class="flex items-center justify-between overflow-hidden">
         <div class="w-1/2 hidden md:block text-white">
             <div class="flex flex-col">
-                <div class="w-full xl:pl-20 xl:pr-12 pl-12 pr-12">
+                <div class="px-12">
                     <h1
                     role="heading"
                     tabindex="0"
@@ -25,13 +25,13 @@
             <img src="/teleassistenza.jpg" />
         </figure>
     </div>
-    <div class="block md:hidden">
-        <div class="flex flex-col -mr-5">
-                <div class="w-full pl-12 pr-12">
+    <div class="block md:hidden text-white">
+        <div class="flex flex-col">
+                <div class="p-12">
                     <h1
                     role="heading"
                     tabindex="0"
-                    class="text-3xl font-bold 2xl:leading-10 leading-0 text-gray-800"
+                    class="text-3xl font-bold 2xl:leading-10 leading-0"
                     >
                     TELEASSISTENZA
                     </h1>
@@ -39,7 +39,7 @@
                     <h1
                     role="heading"
                     tabindex="0"
-                    class="text-3xl font-bold 2xl:leading-10 leading-0 text-gray-800">
+                    class="md:text-3xl text-2xl font-bold 2xl:leading-10 leading-0">
                     Scegliere Progetto Assistenza vuol dire ottenere soluzioni immediate al giusto prezzo.
                     </h1>
                 </div>
