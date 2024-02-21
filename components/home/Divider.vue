@@ -8,7 +8,7 @@
             </figure>
             <div class="w-1/2 hidden md:block">
                 <div class="flex flex-col text-white">
-                    <div class="px-12">
+                    <div class="p-12">
                         <h1
                         role="heading"
                         tabindex="0"

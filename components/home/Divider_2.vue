@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between overflow-hidden">
         <div class="w-1/2 hidden md:block text-white">
             <div class="flex flex-col">
-                <div class="px-12">
+                <div class="p-12">
                     <h1
                     role="heading"
                     tabindex="0"
