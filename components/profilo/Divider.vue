@@ -5,12 +5,12 @@
                 <h1
             role="heading"
             tabindex="0"
-            class="text-4xl font-bold 2xl:leading-10 leading-0 text-center text-[#144e99]"
+            class="md:text-4xl text-3xl font-bold 2xl:leading-10 leading-0 text-center text-[#144e99]"
             >
             Progetto Assistenza è un’Agenzia per anziani e disabili punto di riferimento in tutta Italia.
             </h1>
               <div class="flex flex-col lg:flex-row justify-between gap-8 pt-8">
-                  <div class="w-1/2 flex flex-col justify-center">
+                  <div class="lg:w-1/2 w-full flex flex-col justify-center">
                       <p class="font-normal text-base leading-6 text-gray-600">
                         <b>Progetto Assistenza è una rete nazionale che eroga servizi di assistenza domiciliare e ospedaliera per anziani, malati e disabili</b>, in supporto alle famiglie. Siamo presenti in gran numero, ancora in espansione, su tutto il territorio, garantendo proattività e immediatezza in tutti gli interventi.
                         <br/>
@@ -19,15 +19,15 @@
                         Il nostro principale obiettivo è il <b>miglioramento della qualità di vita</b> non solo di persone anziane, portatrici di disabilità o gravi patologie, ma anche di coloro che le circondano.
                       </p>
                   </div>
-                  <div class="w-1/2">
+                  <div class="lg:w-1/2 w-full">
                       <img class="w-full h-full " src="/slider_img_pa_img3.jpg" alt="A group of People" />
                   </div>
               </div>
               <div class="flex flex-col lg:flex-row justify-between gap-8 pt-16">
-                  <div class="w-1/2">
+                  <div class="lg:w-1/2 w-full">
                       <img class="w-full h-full " src="/slider_img_pa_img3.jpg" alt="A group of People" />
                   </div>
-                  <div class="w-1/2 flex flex-col justify-center">
+                  <div class="lg:w-1/2 w-full flex flex-col justify-center">
                       <p class="font-normal text-base leading-6 text-gray-600">
                         L’impegno sociale di Progetto Assistenza si traduce nella <b>tutela della salute, fisica e non, dell’individuo e della sua famiglia a 360°</b>.
                         <br/>

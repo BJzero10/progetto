@@ -22,11 +22,11 @@
                         </ul>
                         </li>
                         <li><a>NEWS</a></li>
-                        <li><a>CONTATTI</a></li>
+                        <li><NuxtLink to="/contatti">CONTATTI</NuxtLink></li>
                         <li><a>FRANCHISING</a></li>
                     </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">Logo</a>
+                    <NuxtLink to="/" class="btn btn-ghost text-xl">Logo</NuxtLink>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -46,12 +46,12 @@
                         </div>
                     </li>
                     <li><a>NEWS</a></li>
-                    <li><a>CONTATTI</a></li>
+                    <li><NuxtLink to="/contatti">CONTATTI</NuxtLink></li>
                     <li><a>FRANCHISING</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                <a class="btn">Button</a>
+                <NuxtLink to="/contatti" class="btn">CONTATTI</NuxtLink>
             </div>
         </div>
         </div>
