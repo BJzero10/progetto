@@ -33,17 +33,17 @@
                     <li><NuxtLink to="/">HOME</NuxtLink></li>
                     <li><NuxtLink to="/profilo">PROFILO</NuxtLink></li>
                     <li><NuxtLink to="/trova-centro">TROVA CENTRO</NuxtLink></li>
-                    <li>
-                        <details>
-                        <summary>SERVIZI</summary>
-                        <ul class="p-2">
-                            <li><a>ASSISTENZA ALLA PERSONA</a></li>
-                            <li><a>BADANTI E ASSISTENTI FAMILIARI</a></li>
-                            <li><a>BTELEMEDICINA E APP ANYCARE</a></li>
-                            <li><a>PRATICHE AMMINISTRATIVE</a></li>
-                            <li><a>ALTRI SERVIZI</a></li>
-                        </ul>
-                        </details>
+                    <li class="relative group">
+                        <div class="dropdown dropdown-bottom dropdown-hover">
+                            <NuxtLink to="/" tabindex="0">SERVIZI</NuxtLink>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                                <li><NuxtLink>ASSISTENZA ALLA PERSONA</NuxtLink></li>
+                                <li><NuxtLink>BADANTI E ASSISTENTI FAMILIARI</NuxtLink></li>
+                                <li><NuxtLink>BTELEMEDICINA E APP ANYCARE</NuxtLink></li>
+                                <li><NuxtLink>PRATICHE AMMINISTRATIVE</NuxtLink></li>
+                                <li><NuxtLink>ALTRI SERVIZI</NuxtLink></li>
+                            </ul>
+                        </div>
                     </li>
                     <li><a>NEWS</a></li>
                     <li><a>CONTATTI</a></li>
@@ -64,4 +64,22 @@
 </template>
 
 <script setup>
+</script>
+
+<script>
+export default {
+  data() {
+    return {
+      isDropdownOpen: false
+    };
+  },
+  methods: {
+    openDropdown() {
+      this.isDropdownOpen = true;
+    },
+    closeDropdown() {
+      this.isDropdownOpen = false;
+    }
+  }
+};
 </script>
