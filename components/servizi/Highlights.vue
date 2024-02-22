@@ -15,7 +15,7 @@
                     <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-7-svg1dark.svg" alt="Safe Shopping">
                     <p class="text-xl text-gray-800 dark:text-white font-semibold leading-5 mt-6">Assistenza alla persona</p>
                     <p class="font-normal text-base leading-6 dark:text-gray-300 text-gray-600 my-4">Our all outlets have industry-leading health precautions</p>
-                    <a class="cursor-pointer text-base dark:text-white leading-4 dark:border-white font-medium text-gray-800 border-b-2 border-gray-800 hover:text-gray-600">Learn More</a>
+                    <NuxtLink to="/servizi/assistenza" class="cursor-pointer text-base dark:text-white leading-4 dark:border-white font-medium text-gray-800 border-b-2 border-gray-800 hover:text-gray-600">Learn More</NuxtLink>
                 </div>
     
                 <!-- Personal Shopping Grid Card -->

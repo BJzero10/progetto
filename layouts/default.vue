@@ -37,7 +37,7 @@
                         <div class="dropdown dropdown-bottom dropdown-hover">
                             <NuxtLink to="/servizi" tabindex="0">SERVIZI</NuxtLink>
                             <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                <li><NuxtLink>ASSISTENZA ALLA PERSONA</NuxtLink></li>
+                                <li><NuxtLink to="/servizi/assistenza">ASSISTENZA ALLA PERSONA</NuxtLink></li>
                                 <li><NuxtLink>BADANTI E ASSISTENTI FAMILIARI</NuxtLink></li>
                                 <li><NuxtLink>BTELEMEDICINA E APP ANYCARE</NuxtLink></li>
                                 <li><NuxtLink>PRATICHE AMMINISTRATIVE</NuxtLink></li>
