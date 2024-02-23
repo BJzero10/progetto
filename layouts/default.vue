@@ -58,7 +58,7 @@
         <div id="BodyPage">
             <slot />
 
-            <GeneralFooter/>
+            <GeneralFooterPlus/>
         </div>
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     
-    <div class="px-4 py-12">
+    <div class="px-4 pt-12 pb-2">
       <div
         class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] w-full py-12 lg:px-10 md:px-6 px-4 bg-white mx-auto"
       >
