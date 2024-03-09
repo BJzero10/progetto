@@ -1,6 +1,6 @@
 <template>
     <div class="relative flex justify-start md:justify-center md:items-end">
-        <img class="absolute object-cover top-2 h-100 w-full mt-6 z-0" src="/footer_5_marketing_background_3.png" alt="background">
+        <img class="absolute object-cover top-4 h-100 w-full mt-0 z-1" src="/footer_5_marketing_background_1.png" alt="background">
         <div class="flex pt- md:pt-32 lg:pt-40 xl:pt-72 px-4 md:px-6 xl:px-20 flex-col justify-start items-start md:justify-center md:items-center relative z-10">
             <div class="flex flex-col items-start justify-start xl:justify-center xl:space-x-8 xl:flex-row">
                 <div class="flex justify-start items-center space-x-4 mr-4">
