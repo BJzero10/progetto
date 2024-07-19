@@ -1,12 +1,12 @@
 <template>
-    <GeneralBanner/>
-    <ServiziTextSection/>
-    <ServiziDivider/>
-    <ServiziHighlights/>
+  <GeneralBanner />
+  <ServiziTextSection />
+  <ServiziDivider />
+  <!-- <ServiziHighlights/> -->
 </template>
 
 <script setup lang="ts">
 definePageMeta({
-  layout: 'default'
-})
+  layout: "default",
+});
 </script>

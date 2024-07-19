@@ -42,10 +42,10 @@
         </h2>
       </div>
     </div>
-    <HomeDivider2 />
-    <HomeTextImage />
+    <!-- <HomeDivider2 />
+    <HomeTextImage /> -->
     <GeneralAddress />
-    <GeneralOurPartners />
+    <!-- <GeneralOurPartners /> -->
   </div>
 </template>
 

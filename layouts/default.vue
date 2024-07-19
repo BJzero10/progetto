@@ -25,9 +25,11 @@
               class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li><NuxtLink to="/">HOME</NuxtLink></li>
-              <li><NuxtLink to="/profilo">PROFILO</NuxtLink></li>
-              <li><NuxtLink to="/trova-centro">TROVA CENTRO</NuxtLink></li>
-              <li>
+              <!-- <li><NuxtLink to="/profilo">PROFILO</NuxtLink></li> -->
+              <li><NuxtLink to="/chi-siamo">CHI SIAMO</NuxtLink></li>
+              <li><NuxtLink to="/servizi">SERVIZI</NuxtLink></li>
+              <!-- <li><NuxtLink to="/trova-centro">TROVA CENTRO</NuxtLink></li> -->
+              <!-- <li>
                 <a>SERVIZI</a>
                 <ul class="p-2">
                   <li><a>ASSISTENZA ALLA PERSONA</a></li>
@@ -37,9 +39,9 @@
                   <li><a>ALTRI SERVIZI</a></li>
                 </ul>
               </li>
-              <li><a>NEWS</a></li>
-              <li><NuxtLink to="/contatti">CONTATTI</NuxtLink></li>
-              <li><a>FRANCHISING</a></li>
+              <li><a>NEWS</a></li> -->
+              <!-- <li><NuxtLink to="/contatti">CONTATTI</NuxtLink></li> -->
+              <!-- <li><a>FRANCHISING</a></li> -->
             </ul>
           </div>
           <NuxtLink to="/" class="btn btn-ghost text-xl hover:bg-base-100"
@@ -49,7 +51,9 @@
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li><NuxtLink to="/">HOME</NuxtLink></li>
-            <li><NuxtLink to="/profilo">PROFILO</NuxtLink></li>
+            <li><NuxtLink to="/chi-siamo">CHI SIAMO</NuxtLink></li>
+            <li><NuxtLink to="/servizi">SERVIZI</NuxtLink></li>
+            <!-- <li><NuxtLink to="/profilo">PROFILO</NuxtLink></li>
             <li><NuxtLink to="/trova-centro">TROVA CENTRO</NuxtLink></li>
             <li class="relative group">
               <div class="dropdown dropdown-bottom dropdown-hover">
@@ -72,7 +76,7 @@
             </li>
             <li><a>NEWS</a></li>
             <li><NuxtLink to="/contatti">CONTATTI</NuxtLink></li>
-            <li><a>FRANCHISING</a></li>
+            <li><a>FRANCHISING</a></li> -->
           </ul>
         </div>
         <div class="navbar-end">
@@ -87,7 +91,7 @@
     <div id="BodyPage">
       <slot />
 
-      <GeneralFooterPlus />
+      <GeneralFooter />
     </div>
   </div>
 </template>
